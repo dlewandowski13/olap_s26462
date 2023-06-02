@@ -60,7 +60,7 @@
           <ConfigurationSetting>
             <Id>Hurtownia s26462</Id>
             <Name>Hurtownia s26462</Name>
-            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=DESKTOP-A7LBTN7\MSSQLSERVER01;Persist Security Info=True;Password=;User ID=;Initial Catalog=hurtownia_s26462</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-A7LBTN7\MSSQLSERVER01;Persist Security Info=True;Password=;User ID=;Initial Catalog=hurtownia_s26462</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
