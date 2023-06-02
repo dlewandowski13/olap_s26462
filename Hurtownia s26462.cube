@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2834" scrolltop="3448" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="93" x="28840" y="15372" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="17" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4673" scrolltop="-335" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="83" x="28840" y="15372" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -261,6 +261,15 @@
               <point x="21874" y="11748" />
             </connector>
           </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Text.080.1" left="11266" top="8941" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="6000" height="1500" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="1" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="0002000070170000dc0500000300640000000500008008000080000000003a0001ee000090013c670200065461686f6d610100410000000000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -278,11 +287,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2834</Value>
+      <Value>-4673</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>3448</Value>
+      <Value>-335</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -294,7 +303,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>93</Value>
+      <Value>83</Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
@@ -303,6 +312,12 @@
     <Dimension dwd:design-time-name="549aea6d-3984-4a94-b015-4b3ad8425f22">
       <ID>Id Competition</ID>
       <Name>Id Competition</Name>
+      <Translations>
+        <Translation dwd:design-time-name="209d9dc7-bfc9-44a4-9dd5-6ef0f0864fb6">
+          <Language>1045</Language>
+          <Caption>Rozgrywki</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>d Competitions</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="1ef6c6d2-bb15-4ba5-9807-cd150348d43c">
@@ -319,6 +334,12 @@
     <Dimension dwd:design-time-name="ab6bdfb1-ce1d-4760-9077-f238ccb13e6d">
       <ID>Id Club</ID>
       <Name>Id Club</Name>
+      <Translations>
+        <Translation dwd:design-time-name="776f9364-2ffc-4ad0-80bd-b0ad5ffb19ef">
+          <Language>1045</Language>
+          <Caption>Klub</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>d Clubs</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="83546e01-9eac-44f1-a8e2-e5702ff957df">
@@ -335,6 +356,12 @@
     <Dimension dwd:design-time-name="9b78b7a1-0b36-464c-a239-b6b01ec8afc8">
       <ID>Id Game</ID>
       <Name>Id Game</Name>
+      <Translations>
+        <Translation dwd:design-time-name="3d6a1f89-1372-4e65-9f47-c70a81c47d30">
+          <Language>1045</Language>
+          <Caption>Mecz</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>d Games</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="9e2a95a5-6063-4a82-a07b-2380985b519e">
@@ -471,6 +498,12 @@
     <Dimension dwd:design-time-name="53820227-dc48-4515-a0aa-a2f2a31e203f">
       <ID>d k Game Events</ID>
       <Name>d k Game Events</Name>
+      <Translations>
+        <Translation dwd:design-time-name="1f588231-d7be-4d7e-8b0e-95458af6d636">
+          <Language>1045</Language>
+          <Caption>Zdarzenia boiskowe</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>d k Game Events</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="4d45988e-e36e-41d1-b4e2-509dc9dc860a">
@@ -490,6 +523,12 @@
     <Dimension dwd:design-time-name="23e0497f-6981-4c46-99df-765953ee5e3b">
       <ID>d Players</ID>
       <Name>d Players</Name>
+      <Translations>
+        <Translation dwd:design-time-name="261f3bf3-1338-4f49-8e97-b268e3bc2750">
+          <Language>1045</Language>
+          <Caption>Piłkarze</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>d Players</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="bd047e02-b471-4531-9218-edffa3eee4ea">
@@ -535,6 +574,12 @@
               <ColumnID>goals</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="f36d7beb-ae1f-4d96-90fd-898b27321106">
+              <Language>1045</Language>
+              <Caption>Gole</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="d964232e-831f-4bb7-a9c4-d5a1d31feac9">
           <ID>Assists</ID>
@@ -546,6 +591,12 @@
               <ColumnID>assists</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="c08b4054-4afa-4a48-9f07-f3032ab34edc">
+              <Language>1045</Language>
+              <Caption>Asysty</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="634fa35a-0393-4c94-a6d9-26f438302694">
           <ID>Yellow Cards</ID>
@@ -557,6 +608,12 @@
               <ColumnID>yellow_cards</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="aac02c98-b37d-4000-a9d1-66f35bed31b4">
+              <Language>1045</Language>
+              <Caption>Żółte kartki</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="b627404b-c7de-454c-ae4e-bcc1bc14d778">
           <ID>Red Cards</ID>
@@ -568,6 +625,12 @@
               <ColumnID>red_cards</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="907303ed-ae37-4a46-85b0-0382e6ad35f6">
+              <Language>1045</Language>
+              <Caption>Czerwone kartki</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="b949917e-7fd0-4481-a096-acb9aa7606a6">
           <ID>Minutes Played</ID>
@@ -579,6 +642,12 @@
               <ColumnID>minutes_played</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="f0a1d36e-53fe-4bc2-9de4-53eed25873dc">
+              <Language>1045</Language>
+              <Caption>Minuty rozegrane</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="026a3c47-5113-44d0-99d3-d3bb88855bc4">
           <ID>Player Value</ID>
@@ -590,6 +659,12 @@
               <ColumnID>player_value</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="579ccd9d-b462-4703-90de-a3001b2c56a6">
+              <Language>1045</Language>
+              <Caption>Wartość piłkarza</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="73e447d0-a023-4d54-bfdd-3470aaf3067e">
           <ID>f Player Statistic Count</ID>
