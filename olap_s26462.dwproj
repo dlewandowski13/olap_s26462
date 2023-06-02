@@ -6,10 +6,71 @@
     <Name>olap_s26462.database</Name>
     <FullPath>olap_s26462.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Hurtownia s26462.cube</Name>
+      <FullPath>Hurtownia s26462.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Hurtownia s26462.partitions</Name>
+          <FullPath>Hurtownia s26462.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>d Competitions.dim</Name>
+      <FullPath>d Competitions.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>d k Game Events.dim</Name>
+      <FullPath>d k Game Events.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>d Clubs.dim</Name>
+      <FullPath>d Clubs.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>d Players.dim</Name>
+      <FullPath>d Players.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>d Games.dim</Name>
+      <FullPath>d Games.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Hurtownia s26462.ds</Name>
+      <FullPath>Hurtownia s26462.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Hurtownia s26462.dsv</Name>
+      <FullPath>Hurtownia s26462.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Hurtownia s26462</Id>
+            <Name>Hurtownia s26462</Name>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=DESKTOP-A7LBTN7\MSSQLSERVER01;Persist Security Info=True;Password=;User ID=;Initial Catalog=hurtownia_s26462</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Hurtownia s26462</Id>
+            <Name>Hurtownia s26462</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

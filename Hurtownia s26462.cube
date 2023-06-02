@@ -1,0 +1,447 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="27259c28-95a3-4038-85f1-a9c5e2e5f6a0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hurtownia s26462</ID>
+  <Name>Hurtownia s26462</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="bf14ddec-b3d0-4cdd-929a-7151033b0f27">
+      <ID>Id Competition</ID>
+      <Name>Id Competition</Name>
+      <DimensionID>d Competitions</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9c26dd0c-7003-48c2-8368-54feb9e33da9">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8c2161fc-54bd-43f7-9f6e-5e8bae1abd3e">
+      <ID>Id Club</ID>
+      <Name>Id Club</Name>
+      <DimensionID>d Clubs</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="32e48b35-78b0-43c6-8e6d-d775a3e7bdba">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d8f17ecb-0131-4597-8731-89dcb73e714e">
+          <AttributeID>League</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="58d71308-1a52-4c52-b3e8-36fe43d87394">
+      <ID>Id Game</ID>
+      <Name>Id Game</Name>
+      <DimensionID>d Games</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1a0372bc-d151-4c0c-a907-e084b56a1873">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="089e8105-05cc-40db-b18b-494bf0b33327">
+          <AttributeID>Competition</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ff867c4e-856a-48d5-a063-2abeeee5416e">
+      <ID>Id k Game Event - Id Game</ID>
+      <Name>Id k Game Event - Id Game</Name>
+      <DimensionID>d Games</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1de0eef3-350e-4df3-884a-581f44f5bbe5">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="631c2ede-0b28-4d9d-ae73-6fab5dc468bb">
+          <AttributeID>Competition</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3435ee8b-53f6-42a4-a92d-51a3e76fddd0">
+      <ID>Id k Game Event - Id Game - Competition</ID>
+      <Name>Id k Game Event - Id Game - Competition</Name>
+      <DimensionID>d Competitions</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5a721cf7-ebab-4528-9e00-af4b38a5ec5d">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="db407603-2a5a-4e33-8b84-4de067ca99d5">
+      <ID>Id Club - League</ID>
+      <Name>Id Club - League</Name>
+      <DimensionID>d Competitions</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1b964223-9081-4bfc-abd3-27fad2ce6493">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8be65bef-ccd1-4798-9ff6-5728695ac9c9">
+      <ID>Id Player - Id Club</ID>
+      <Name>Id Player - Id Club</Name>
+      <DimensionID>d Clubs</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6ba16fdb-fc53-485f-b4fb-afbd8ac37ac2">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="422f90c9-c2bf-4a3c-8814-4eeeaba2ed78">
+          <AttributeID>League</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ba7ae326-4888-4e9b-b9ed-12bab9dfa90e">
+      <ID>Id Player - Id Club - League</ID>
+      <Name>Id Player - Id Club - League</Name>
+      <DimensionID>d Competitions</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2fccd562-b347-45d9-9e63-a31b2c1fc3d6">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="17947797-626d-412f-9931-d0fca6911ae2">
+      <ID>Id Game - Competition</ID>
+      <Name>Id Game - Competition</Name>
+      <DimensionID>d Competitions</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e64faae6-c057-41ca-a39f-e67c2a5418d8">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fc37d315-7a94-496b-be9d-2aa345153ad1">
+      <ID>d k Game Events</ID>
+      <Name>d k Game Events</Name>
+      <DimensionID>d k Game Events</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a0c5bda0-f52f-4f47-97e7-e2b2fc50c320">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a1c8c8a-64cf-4c88-8851-d61a576032d1">
+          <AttributeID>Id Game</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a870481e-55a4-4dd0-bfc1-82438f3b893e">
+      <ID>d Players</ID>
+      <Name>d Players</Name>
+      <DimensionID>d Players</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4139e171-8ca0-4328-a026-b01ce191efb7">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b116b102-0384-42da-9200-5e156be8a46f">
+          <AttributeID>Id Club</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="bfadceaf-4ef8-468e-a68f-909b361abfb4">
+      <ID>f Player Statistic</ID>
+      <Name>f Player Statistic</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1f44bcee-4f6a-4a04-9286-d6d97aa7b5a8">
+          <ID>Goals</ID>
+          <Name>Goals</Name>
+          <Source dwd:design-time-name="9d4a8810-4655-43e9-be06-783cc4f3c8b2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1375be01-1244-4674-932b-f5ce2cef7d4b">
+              <TableID>dbo_f_player_statistic</TableID>
+              <ColumnID>goals</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ba9320fb-e2d8-4e28-b179-579f3905e2fc">
+          <ID>Assists</ID>
+          <Name>Assists</Name>
+          <Source dwd:design-time-name="9489a43d-c460-474e-9466-a3fb0241a871">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="02100081-c839-46b1-9f86-a992bb60fc0b">
+              <TableID>dbo_f_player_statistic</TableID>
+              <ColumnID>assists</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="41cee137-6da5-4cc1-8ab7-7d761ae77814">
+          <ID>Yellow Cards</ID>
+          <Name>Yellow Cards</Name>
+          <Source dwd:design-time-name="535abdeb-ffd0-4f8d-aa36-fc5e28dc4779">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0fb784a9-d8a8-4227-83eb-74f81edd8836">
+              <TableID>dbo_f_player_statistic</TableID>
+              <ColumnID>yellow_cards</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1bfaf79e-b909-4314-aac6-528cb27e40cb">
+          <ID>Red Cards</ID>
+          <Name>Red Cards</Name>
+          <Source dwd:design-time-name="750c90f3-0394-408f-82cf-45fea0e05728">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f9412175-3f44-4146-9839-b1792934236e">
+              <TableID>dbo_f_player_statistic</TableID>
+              <ColumnID>red_cards</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fbc8f7e4-4c76-40ac-950a-d37e706b8870">
+          <ID>Minutes Played</ID>
+          <Name>Minutes Played</Name>
+          <Source dwd:design-time-name="04ab4d61-124a-49a2-b17e-d6df0d6b8d6b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="911278c3-bb46-4945-be67-03eb43e69ddd">
+              <TableID>dbo_f_player_statistic</TableID>
+              <ColumnID>minutes_played</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4297c711-ac9b-4864-91c1-eee4620e77b2">
+          <ID>Player Value</ID>
+          <Name>Player Value</Name>
+          <Source dwd:design-time-name="d68a73ff-85b4-42d8-90aa-8b313f0c373f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e26acc5b-fc31-45c7-a939-2d4f90bc3219">
+              <TableID>dbo_f_player_statistic</TableID>
+              <ColumnID>player_value</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="62929e00-d985-4f44-a505-67428d6d96f6">
+          <ID>f Player Statistic Count</ID>
+          <Name>f Player Statistic Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="fac386ef-92dc-4ed5-9dd0-d205836e7f8f">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ebbab29d-741e-444c-88c6-18a0f78d75a0">
+              <TableID>dbo_f_player_statistic</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1305e6f8-b747-44d9-8920-9c051cfcac79">
+          <CubeDimensionID>Id Competition</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6cd92cbc-779b-4622-8178-c48b6ad2b19c">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="36c7159e-796f-47f9-8ab3-25966753e2e5">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="86d85d62-81fa-497a-a4c0-429bcd6f4064">
+                    <TableID>dbo_f_player_statistic</TableID>
+                    <ColumnID>id_competition</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a8e25743-e73e-4fb9-beab-82b4369260dd">
+          <CubeDimensionID>d k Game Events</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6cc4f1ea-dc23-425f-b8fb-e7a6fee5c60e">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2511da97-b131-441f-bb47-523ace72f1e2">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1e5737cf-0642-4529-9628-cce8b14bb9bb">
+                    <TableID>dbo_f_player_statistic</TableID>
+                    <ColumnID>id_k_game_event</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bf871578-ee30-4c27-9333-3a80c5aef7e2">
+          <CubeDimensionID>Id Club</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6a2288d9-bf41-40fe-83ad-da6e5f84420b">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d926f189-fcfc-4c18-ba66-6935b72183a3">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aadf70b7-37a0-49d4-86c2-3d7362a021e0">
+                    <TableID>dbo_f_player_statistic</TableID>
+                    <ColumnID>id_club</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="55a18b6c-f93a-49db-a56b-122df10a0c5e">
+          <CubeDimensionID>d Players</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7c4f7d4f-26af-4ff7-9efa-47aa57ffb0bb">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ffba216e-5839-4822-a68e-76b79843fea8">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8d42ec25-0b6e-4740-a4fa-e762b1da77e7">
+                    <TableID>dbo_f_player_statistic</TableID>
+                    <ColumnID>id_player</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1e2da7ab-843d-48a9-88ce-cd2114493809">
+          <CubeDimensionID>Id Game</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f966e06e-ee69-4319-a7bd-5c9037f14839">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="73dda699-8872-44cb-87ee-0406f28e6709">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c781803d-b16c-4eb8-a496-2f2fc0929295">
+                    <TableID>dbo_f_player_statistic</TableID>
+                    <ColumnID>id_game</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ef6e220b-2636-49d7-b941-beaedee8e303">
+          <CubeDimensionID>Id k Game Event - Id Game</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bd499bb8-f48e-415c-bde5-98d1e971fb5a">
+              <AttributeID>Id</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>d k Game Events</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Id Game</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="c2a70c67-e585-44e3-83b4-ceab7d168ce3">
+          <CubeDimensionID>Id k Game Event - Id Game - Competition</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="743a893a-2937-4e8d-b1ce-2c986ab6f885">
+              <AttributeID>Id</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Id k Game Event - Id Game</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Competition</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="2295f064-b052-4e11-99f8-928219ec997f">
+          <CubeDimensionID>Id Club - League</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d6781ef9-364f-4c1d-82a8-84c7f5d9ac2e">
+              <AttributeID>Id</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Id Club</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>League</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="bdc9ecc4-d516-4c9e-b314-4983ff5e00cd">
+          <CubeDimensionID>Id Player - Id Club</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0044ee3a-681c-48e5-82a7-2fb18d670312">
+              <AttributeID>Id</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>d Players</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Id Club</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f81461a8-4747-4361-9a6d-7f1bc22bde43">
+          <CubeDimensionID>Id Player - Id Club - League</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4770d4cb-1cf6-43bc-9cb6-ebc34c3ea456">
+              <AttributeID>Id</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Id Player - Id Club</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>League</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="3e183866-62fe-417f-932b-27f445aa3f5c">
+          <CubeDimensionID>Id Game - Competition</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="abfc99ef-907e-47cc-bd8d-955a5a1bb4d5">
+              <AttributeID>Id</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Id Game</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Competition</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="66a3b59b-186c-4378-9eee-68657ce658cf">
+    <DataSourceViewID>Hurtownia s26462</DataSourceViewID>
+  </Source>
+</Cube>
